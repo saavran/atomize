@@ -1,0 +1,202 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+body .fa-circle, body .fa-caret-down {
+  color: #eee;
+  padding: 0px 4px;
+}
+
+body main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body main .col-sm-2 {
+  padding: 80px 16px 16px 16px;
+  border-right: 1px solid #eee;
+  height: 100vh;
+}
+
+body main .col-sm-2 button {
+  font-size: 14px;
+  line-height: 24px;
+  color: #182451 !important;
+  width: 208px;
+  height: 40px;
+  background: transparent;
+  border: 0;
+  text-align: left;
+}
+
+body main .col-sm-2 button:hover {
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #e84f4b !important;
+}
+
+body main .col-sm-2 .fa {
+  padding: 0px 18px;
+}
+
+body main .col-sm-2 .upgrade {
+  text-align: center;
+  border: 1px solid #e84f4b;
+  border-radius: 4px;
+  color: #e84f4b !important;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+body main .col-sm-2 .progress {
+  position: absolute;
+  bottom: 90px;
+  left: 16px;
+  right: 20px;
+  height: 3px;
+}
+
+body main .col-sm-2 .progress .progress-bar {
+  background-color: #e84f4b;
+}
+
+body main .col-sm-2 .space {
+  bottom: 80px;
+  font-size: 14px;
+  color: #182451;
+}
+
+body main .col-sm-2 p {
+  font-size: 12px;
+  bottom: 52px;
+  position: absolute;
+  color: #999;
+}
+
+body main .col-sm-10 {
+  padding: 16px 32px;
+}
+
+body main .col-sm-10 header {
+  height: 130px;
+  border-bottom: 1px solid #eee;
+}
+
+body main .col-sm-10 header form .form-control {
+  width: 400px;
+  height: 40px;
+  background-color: #eee;
+  border: 0;
+}
+
+body main .col-sm-10 header button {
+  background: transparent;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 4px;
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
+
+body main .col-sm-10 header a {
+  padding: 5px 10px;
+  background: #eee;
+  color: #182451 !important;
+  border-radius: 50%;
+  position: absolute;
+  right: 70px;
+  top: 16px;
+}
+
+body main .col-sm-10 header h6 {
+  position: absolute;
+  top: 110px;
+  color: #182451;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 p {
+  font-size: 12px;
+  color: #8a90a7;
+  padding: 10px 0px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #eee;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .read {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #e84f4b;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post {
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post .fa-circle {
+  font-size: 32px;
+  float: left;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post h7 {
+  color: #8a90a7;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post h7 span {
+  color: #182451;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post .fa-file-video-o {
+  padding: 0px 5px;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post button {
+  position: absolute;
+  right: 90px;
+  color: #8a90a7;
+  border-radius: 4px;
+  padding: 4px 13px;
+  font-size: 12px;
+  margin-top: -27px;
+  background: transparent;
+  border: 1px solid #eee;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8a90a7;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post .accept {
+  right: 16px;
+  border: 1px solid #e84f4b;
+  color: #e84f4b;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post .accept:hover {
+  background-color: #e84f4b;
+  cursor: pointer;
+  color: #fff;
+}
+
+body main .col-sm-10 .main-body .col-sm-9 .post .post-time {
+  position: absolute;
+  left: 60px;
+  font-size: 9px;
+  margin-top: -6px;
+  color: #c8c8c8;
+}
+/*# sourceMappingURL=main.css.map */

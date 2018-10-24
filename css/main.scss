@@ -1,0 +1,200 @@
+$bg-color: #fff;
+$hover-color: #eee;
+$font-size: 14px;
+$line-height: 24px;
+$btn-width: 208px;
+$btn-height: 40px;
+$radius: 4px;
+$colors: (
+    bg: #fff,
+    hover: #eee,
+    accent: #e84f4b,
+    headline: #182451,
+    sub-headline: #8a90a7,
+    dull-head: #8a90a7
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name)
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: color(bg);
+    .fa-circle, .fa-caret-down{
+        color: color(hover);
+        padding: 0px 4px;
+    }
+
+    main{
+        max-width: 1440px;
+        margin: 0 auto;
+        .col-sm-2{
+            padding: 80px 16px 16px 16px;
+            border-right: 1px solid color(hover);
+            height: 100vh;
+            button{
+                font-size: $font-size;
+                line-height: $line-height;
+                color: color(headline)!important;
+                width: $btn-width;
+                height: $btn-height;
+                background: transparent;
+                border: 0;
+                text-align: left;
+            }
+            button:hover{
+                background: color(hover);
+                border-radius: $radius;
+                cursor: pointer;
+                color: color(accent)!important;
+            }
+            .fa{
+                padding: 0px 18px;
+            }
+            .upgrade{
+                text-align: center;
+                border: 1px solid color(accent);
+                border-radius: $radius;
+                color: color(accent)!important;
+                position: absolute;
+                bottom: 16px;
+                left: 16px;
+            }
+            .progress{
+                position: absolute;
+                bottom: 90px;
+                left: 16px;
+                right: 20px;
+                height: 3px;
+
+                .progress-bar{
+                    background-color: color(accent);
+                }
+            }
+            .space{
+                bottom: 80px;
+                font-size: $font-size;
+                color: color(headline)
+            }
+            p{
+                font-size: 12px;
+                bottom: 52px;
+                position: absolute;
+                color: #999;
+            }
+        }
+        .col-sm-10{
+            padding: 16px 32px;
+
+            header{
+                height: 130px;
+                border-bottom: 1px solid color(hover);
+                form{
+                    .form-control{
+                        width: 400px;
+                        height: $btn-height;
+                        background-color: color(hover);
+                        border: 0;
+                    }
+                }
+                button{
+                    background: transparent;
+                    border: 1px solid color(hover);
+                    border-radius: 4px;
+                    padding: 4px;
+                    position: absolute;
+                    top: 16px;
+                    right: 0;
+                }
+                a{
+                    padding: 5px 10px;
+                    background: color(hover);
+                    color: color(headline)!important;
+                    border-radius: 50%;
+                    position: absolute;
+                    right: 70px;
+                    top: 16px;
+                }
+                h6{
+                    position: absolute;
+                    top: 110px;
+                    color: color(headline);
+                }
+            }
+            .main-body{
+                .col-sm-9{
+                    p{
+                        font-size: 12px;
+                        color: color(dull-head);
+                        padding: 10px 0px;
+                        margin-bottom: 0;
+                        border-bottom: 1px solid color(hover);
+                    }
+                    .read{
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        color: color(accent);
+                    }
+                    .post{
+                        padding: 15px 0px;
+                        border-bottom: 1px solid color(hover);
+                        .fa-circle{
+                            font-size: 32px;
+                            float: left;
+                        }
+                        h7{
+                            color: color(dull-head);
+                            font-size: 14px;
+                            margin-left: 10px;
+                            span{
+                                color: color(headline);
+                            }
+                        }
+                        .fa-file-video-o{
+                            padding: 0px 5px;
+                        }
+                        button{
+                            position: absolute;
+                            right: 90px;
+                            color: color(dull-head);
+                            border-radius: $radius;
+                            padding: 4px 13px;
+                            font-size: 12px;
+                            margin-top: -27px;
+                            background: transparent;
+                            border: 1px solid color(hover)
+                        }
+                        button:hover{
+                            color: color(bg);
+                            cursor: pointer;
+                            background-color: color(dull-head);
+                        }
+                        .accept{
+                            right: 16px;
+                            border: 1px solid color(accent);
+                            color: color(accent);
+                        }
+                        .accept:hover{
+                            background-color: color(accent);
+                            cursor: pointer;
+                            color: color(bg);
+                        }
+                        .post-time{
+                            position: absolute;
+                            left: 60px;
+                            font-size: 9px;
+                            margin-top: -6px;
+                            color: #c8c8c8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
