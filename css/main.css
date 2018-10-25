@@ -104,7 +104,7 @@ body main .col-sm-10 header button {
   padding: 4px;
   position: absolute;
   top: 16px;
-  right: 0;
+  right: 30px;
 }
 
 body main .col-sm-10 header a {
@@ -113,7 +113,7 @@ body main .col-sm-10 header a {
   color: #182451 !important;
   border-radius: 50%;
   position: absolute;
-  right: 70px;
+  right: 95px;
   top: 16px;
 }
 
@@ -141,7 +141,7 @@ body main .col-sm-10 .main-body .col-sm-9 .subhead {
 
 body main .col-sm-10 .main-body .col-sm-9 .read {
   position: absolute;
-  right: 0;
+  right: 16px;
   top: 0;
   color: #e84f4b;
 }
@@ -215,5 +215,18 @@ body main .col-sm-10 .main-body .col-sm-9 .post .post-time {
   font-size: 12px;
   margin-top: -12px;
   color: #c8c8c8;
+}
+
+@media screen and (max-width: 1440px) {
+  main .col-sm-2 {
+    padding: 80px 16px 16px 25px !important;
+  }
+  main .col-sm-2 button {
+    width: 83% !important;
+    left: 25px !important;
+  }
+  main .col-sm-2 .progress {
+    left: 25px !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

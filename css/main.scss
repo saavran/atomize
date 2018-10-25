@@ -109,7 +109,7 @@ body{
                     padding: 4px;
                     position: absolute;
                     top: 16px;
-                    right: 0;
+                    right: 30px;
                 }
                 a{
                     padding: 5px 10px;
@@ -117,7 +117,7 @@ body{
                     color: color(headline)!important;
                     border-radius: 50%;
                     position: absolute;
-                    right: 70px;
+                    right: 95px;
                     top: 16px;
                 }
                 h6{
@@ -141,7 +141,7 @@ body{
                     }
                     .read{
                         position: absolute;
-                        right: 0;
+                        right: 16px;
                         top: 0;
                         color: color(accent);
                     }
@@ -206,6 +206,21 @@ body{
                         }
                     }
                 }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1440px) {
+    $btn-width: 83%;
+    main{
+        .col-sm-2{
+            padding: 80px 16px 16px 25px!important;
+            button{
+                width: $btn-width!important;
+                left: 25px!important;
+            }
+            .progress{
+                left: 25px!important;
             }
         }
     }
