@@ -92,7 +92,7 @@ body{
             padding: 16px 32px;
 
             header{
-                height: 130px;
+                height: 120px;
                 border-bottom: 1px solid color(hover);
                 form{
                     .form-control{
@@ -122,7 +122,7 @@ body{
                 }
                 h6{
                     position: absolute;
-                    top: 110px;
+                    top: 100px;
                     color: color(headline);
                 }
             }
@@ -135,6 +135,9 @@ body{
                         margin-bottom: 0;
                         border-bottom: 1px solid color(hover);
                     }
+                    .subhead{
+                        margin-top: 22px;
+                    }
                     .read{
                         position: absolute;
                         right: 0;
@@ -145,19 +148,27 @@ body{
                         padding: 15px 0px;
                         border-bottom: 1px solid color(hover);
                         .fa-circle{
-                            font-size: 32px;
+                            font-size: 35px;
                             float: left;
+                            margin-top: -6px;
+                        }
+                        img{
+                            height: 32px;
                         }
                         h7{
                             color: color(dull-head);
                             font-size: 14px;
-                            margin-left: 10px;
+                            margin-left: 13px;
+                            position: absolute;
+                            margin-top: -4px;
                             span{
-                                color: color(headline);
+                            color: color(headline);
                             }
-                        }
-                        .fa-file-video-o{
-                            padding: 0px 5px;
+                            img{
+                                padding: 0px 8px;
+                                height: 16px;
+                                margin-top: -5px;
+                            }
                         }
                         button{
                             position: absolute;
@@ -188,8 +199,8 @@ body{
                         .post-time{
                             position: absolute;
                             left: 60px;
-                            font-size: 9px;
-                            margin-top: -6px;
+                            font-size: 12px;
+                            margin-top: -12px;
                             color: #c8c8c8;
                         }
                     }
